@@ -1,0 +1,6 @@
+1. Install minikube
+
+2. Run the following commands (Enables some required components)
+minikube addons enable ingress
+minikube addons enable heapster
+minikube addons enable metrics-server
